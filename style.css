@@ -1,0 +1,78 @@
+body {
+    margin: auto;
+    background-repeat:no-repeat;
+
+}
+header {
+
+}
+.nav {
+    background-color: rgba(0, 0, 0, 0.89);
+    width: auto;
+    height: 100%;
+    border-bottom: 7px solid rgb(78, 75, 75);
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav ul li {
+    font-size: medium;
+    color: white;
+    display: inline;
+    padding: 10px 10px;
+    cursor:pointer;
+}
+section {
+    margin-top: 0%;
+    background: url(IMAGES/1496231.jpg);
+    background-size: cover;
+    height: 110vh;
+}
+.left{
+    display: flex;
+    justify-content: left;
+    width: 200px;
+    margin-left: 50px;
+}
+.left h1 {
+   padding-top: 120px;
+   padding-bottom: 146px;
+   margin-top: 0%;
+   font-size: 50px;
+   color: rgb(255, 254, 174);
+
+}
+
+/* +++start++++ */
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+.boxa {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px black;
+    background: whitesmoke;
+    width: 300px;
+}
+
+.shopbtn {
+    background-color: rgb(0, 247, 255);
+    border-radius: 4px;
+    border: 1px solid black;
+    width: 120px;
+    height: 40px;
+    cursor:pointer;
+    box-shadow: 2px 2px 8px black;
+    font-size: medium;
+}
+.shopbtn:hover {
+    background-color: rgb(153, 0, 255);
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+}
